@@ -2,7 +2,6 @@ import { Link } from "react-scroll"
 function Hero() {
   return (
     <section className='hero'>
-      <img src='' alt=""/>
       <div className="item">
         <h3>Dream Maker</h3>
         <div>
