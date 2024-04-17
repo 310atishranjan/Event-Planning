@@ -9,7 +9,7 @@ function Contact() {
   const handleSendMessage=async(e)=>{
     e.preventDefault();
     try{
-    await axios.post('http://localhost:4000/api/v1/user/send-message',{
+    await axios.post('event-planning-b-production.up.railway.app/api/v1/user/send-message',{
       email,phone,name,message
     },{
       withCredentials: true,
